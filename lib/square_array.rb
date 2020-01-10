@@ -1,7 +1,9 @@
 def square_array(array)
+  squared_array = []
   counter = 0
   while array[counter] do
-    p array[counter]**2
+    squared_array << array[counter]**2
     counter += 1
   end
+  squared_array
 end
